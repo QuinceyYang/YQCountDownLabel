@@ -13,6 +13,7 @@
 		4D0727D122B243CD005C1C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0727D022B243CD005C1C71 /* Assets.xcassets */; };
 		4D0727D422B243CD005C1C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0727D222B243CD005C1C71 /* LaunchScreen.storyboard */; };
 		4D0727D722B243CD005C1C71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0727D622B243CD005C1C71 /* main.m */; };
+		4D0727E022B24424005C1C71 /* YQCountDownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0727DE22B24424005C1C71 /* YQCountDownLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4D0727D322B243CD005C1C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0727D522B243CD005C1C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0727D622B243CD005C1C71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0727DE22B24424005C1C71 /* YQCountDownLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQCountDownLabel.m; sourceTree = "<group>"; };
+		4D0727DF22B24424005C1C71 /* YQCountDownLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQCountDownLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4D0727C622B243CA005C1C71 /* YQCountDownLabel */ = {
 			isa = PBXGroup;
 			children = (
+				4D0727DD22B243E8005C1C71 /* YQCountDownLabel */,
 				4D0727C722B243CA005C1C71 /* AppDelegate.h */,
 				4D0727C822B243CA005C1C71 /* AppDelegate.m */,
 				4D0727CA22B243CA005C1C71 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				4D0727D222B243CD005C1C71 /* LaunchScreen.storyboard */,
 				4D0727D522B243CD005C1C71 /* Info.plist */,
 				4D0727D622B243CD005C1C71 /* main.m */,
+			);
+			path = YQCountDownLabel;
+			sourceTree = "<group>";
+		};
+		4D0727DD22B243E8005C1C71 /* YQCountDownLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4D0727DF22B24424005C1C71 /* YQCountDownLabel.h */,
+				4D0727DE22B24424005C1C71 /* YQCountDownLabel.m */,
 			);
 			path = YQCountDownLabel;
 			sourceTree = "<group>";
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0727E022B24424005C1C71 /* YQCountDownLabel.m in Sources */,
 				4D0727CC22B243CA005C1C71 /* ViewController.m in Sources */,
 				4D0727D722B243CD005C1C71 /* main.m in Sources */,
 				4D0727C922B243CA005C1C71 /* AppDelegate.m in Sources */,
